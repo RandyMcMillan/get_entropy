@@ -25,6 +25,11 @@
 /* Begin PBXFileReference section */
 		4B1F355B238B6178005555DD /* get_entropy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = get_entropy; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1F355E238B6178005555DD /* get_entropy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = get_entropy.cpp; sourceTree = "<group>"; };
+		4B1F3567238BB77A005555DD /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4B1F3568238BB77A005555DD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4B1F3569238BB77A005555DD /* num.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = num.hpp; sourceTree = "<group>"; };
+		4B1F356A238BB77A005555DD /* rat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rat.hpp; sourceTree = "<group>"; };
+		4B1F356B238BB77A005555DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +62,23 @@
 		4B1F355D238B6178005555DD /* get_entropy */ = {
 			isa = PBXGroup;
 			children = (
+				4B1F3566238BB77A005555DD /* bignum */,
 				4B1F355E238B6178005555DD /* get_entropy.cpp */,
 			);
 			path = get_entropy;
 			sourceTree = "<group>";
+		};
+		4B1F3566238BB77A005555DD /* bignum */ = {
+			isa = PBXGroup;
+			children = (
+				4B1F3567238BB77A005555DD /* .gitignore */,
+				4B1F3568238BB77A005555DD /* LICENSE */,
+				4B1F3569238BB77A005555DD /* num.hpp */,
+				4B1F356A238BB77A005555DD /* rat.hpp */,
+				4B1F356B238BB77A005555DD /* README.md */,
+			);
+			path = bignum;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 

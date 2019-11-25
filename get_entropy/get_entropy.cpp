@@ -6,8 +6,12 @@
 //  Copyright © 2019 randymcmillan.net. All rights reserved.
 //
 #define RAND_FROM_TO(min, max) (min + arc4random_uniform(max - min + 1))
+#include <assert.h>
 #import <iostream>
 #import <time.h>
+#include "num.hpp"
+#include "rat.hpp"
+#include <assert.h>
 
 int main(int argc, const char * argv[]) {
     
